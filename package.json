@@ -1,0 +1,24 @@
+{
+    "name": "gcp-training-javascript",
+    "version": "1.0.0",
+    "description": "A toy application for very specific demo purposes.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "jest",
+        "lint": "eslint . --ext .js"
+    },
+    "author": "github.com/mattrandallbecker",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "eslint": "^9.24.0",
+        "jest": "^29.7.0",
+        "supertest": "^7.0.0"
+    },
+    "jest": {
+        "testEnvironment": "node"
+    }
+}
